@@ -20,7 +20,7 @@ const ChatsPage = (props) => {
                     cursor: "pointer", 
                     position: 'fixed', 
                     zIndex: 50, 
-                    top: '1%', 
+                    top: '12%', 
                     borderRadius: "50px", 
                     right: '1%', 
                     height: '50px' 
