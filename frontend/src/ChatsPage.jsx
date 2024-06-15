@@ -7,7 +7,7 @@ const ChatsPage = (props) => {
     const [theme, setTheme] = useState(true);
     const chatProps = useMultiChatLogic(publicKey, props.user.username, props.user.secret);
 
-    console.log('Chat Props:', chatProps);
+    // console.log('Chat Props:', chatProps);
 
     return (
         <div className="background" style={{ height: "100vh", padding: '' }}>
