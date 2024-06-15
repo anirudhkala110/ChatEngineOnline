@@ -5,7 +5,7 @@ const AuthPage = (props) => {
         const { value } = e.target[0];
         e.preventDefault();
         axios.post(
-            "http://localhost:8098/authenticate", {
+            "https://livechat.basic2ai.info//authenticate", {
             username: value
         }
         )
